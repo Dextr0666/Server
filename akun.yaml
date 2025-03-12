@@ -1,30 +1,17 @@
 proxies:
-- name: kasih-nama1
-  server: ip/host bug
-  port: 443
-  type: vmess
-  uuid: password akun
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: ip/host akun
-  network: ws
-  ws-opts:
-    path: /path akun
-    headers:
-      Host: ip/host akun
-  udp: true
-- name: kasih-nama2
-  server: ip/host bug
-  type: trojan
-  port: 443
-  password: password akun
-  sni: ip/host akun
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /path akun
-    headers:
-      Host: ip/host akun
+  - name: akun-github
+    server: 104.17.3.81
+    port: 80
+    type: vmess
+    uuid: be6db0be-5728-51e3-ba96-dc0c36470f6a
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: zoomgov.beritanect.click
+    network: ws
+    ws-opts:
+      path: /xrayvmess
+      headers:
+        Host: id-biznet001.beritanect.click
+    udp: true
